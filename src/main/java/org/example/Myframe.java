@@ -88,12 +88,12 @@ public class Myframe extends JFrame implements ActionListener {
                     break;
 
                 case "Insertion Sort":
-                    //JOptionPane.showMessageDialog(this, "You Selected Insertion Sort ");
-                    Insertion i = new Insertion();
+                    JOptionPane.showMessageDialog(this, "Insertion Sort is not yet available");
+                    //Insertion i = new Insertion();
                     break;
 
                 case "Merge Sort":
-                    JOptionPane.showMessageDialog(this, "You Selected Merge Sort ");
+                    JOptionPane.showMessageDialog(this, "Merge Sort is not yet available");
                     break;
 
                 default:
@@ -103,5 +103,6 @@ public class Myframe extends JFrame implements ActionListener {
 
     }if(e.getSource()==button2){
             arr = generateRandomArray(50);
+            JOptionPane.showMessageDialog(this, "Random Array is Generated");
         }
 }}
